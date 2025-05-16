@@ -32,7 +32,7 @@ function Starbackground() {
     setStar(newStars);
   };
   const generateMeteors = () => {
-    const numberofMeteor = 3;
+    const numberofMeteor = 5;
     const newmeteors = [];
     for (let i = 0; i < numberofMeteor; i++) {
       newmeteors.push({
