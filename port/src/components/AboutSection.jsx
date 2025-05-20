@@ -1,8 +1,14 @@
-import React from "react";
 import { FaCloud, FaPenFancy } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
-import { Code } from "lucide-react";
+
 function AboutSection() {
+  const downloadFile = (e) => {
+    e.preventDefault();
+    window.open(
+      "https://drive.google.com/uc?export=download&id=1F7RLn8qW8i12nInsI02-AzK8CorL4Om5",
+      "_blank"
+    );
+  };
   return (
     <section className="py-24 relative px-3" id="about">
       <div className="container mx-auto max-w-5xl">
@@ -24,12 +30,13 @@ function AboutSection() {
               <a href="#contact" className="cosmic-button">
                 Get in Touch
               </a>
-              <a
-                href=""
+              <button
                 className="px-6 py-2 rounded-full border-primary text-primary hover:bg-primary/10 transition-colors"
+                onClick={downloadFile}
+                target="_blank"
               >
                 Download CV
-              </a>
+              </button>
             </div>
           </div>
           <div className="grid grid-cols-1 gap-6">

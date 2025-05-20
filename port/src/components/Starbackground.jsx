@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function Starbackground() {
   //ud,size,x,y,animation-duration list
@@ -16,7 +16,7 @@ function Starbackground() {
   }, []);
   const generateStars = () => {
     const numberofStars = Math.floor(
-      (window.innerHeight * window.innerWidth) / 1000
+      (window.innerHeight * window.innerWidth) / 2500
     );
     const newStars = [];
     for (let i = 0; i < numberofStars; i++) {

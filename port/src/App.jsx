@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import NotFound from "./pages/notFound.jsx";
+import { Toaster } from "./components/ui/toaster.jsx";
 
 function App() {
   return (
     <>
+      <Toaster />
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />

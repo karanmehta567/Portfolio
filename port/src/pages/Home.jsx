@@ -1,10 +1,11 @@
-import React from "react";
 import { ThemeToggle } from "../components/Toggle";
 import Starbackground from "../components/Starbackground";
 import { Navbar } from "../components/Navbar";
 import { HeroSection } from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import SkillSection from "../components/SkillSection";
+import { ProjectSection } from "../components/ProjectSection";
+import { Contact } from "../components/ReachOut";
 
 function Home() {
   return (
@@ -20,6 +21,8 @@ function Home() {
         <HeroSection />
         <AboutSection />
         <SkillSection />
+        <ProjectSection />
+        <Contact />
       </main>
       {/*About Me */}
       {/* footer */}
