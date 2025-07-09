@@ -20,6 +20,16 @@ const projects = [
     tags: ["Typescript", "React", "AWS-SDK", "Redis"],
     githubUrl: "https://github.com/karanmehta567/CloudShipX",
   },
+  {
+    id: 3,
+    title: "Travel Planner",
+    description:
+      "It lets you plan your upcoming travelling journey,create itineraries and pinpoint the location on globe",
+    image: "/project/travel.png",
+    tags: ["NextJS", "Typescript", "PostgreSQL", "OAuth"],
+    githubUrl: "https://github.com/karanmehta567/travel-planner",
+    demoUrl: "https://travel-planner-murex.vercel.app/",
+  },
 ];
 
 export const ProjectSection = () => {
