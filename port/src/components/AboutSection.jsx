@@ -5,7 +5,7 @@ function AboutSection() {
   const downloadFile = (e) => {
     e.preventDefault();
     window.open(
-      "https://drive.google.com/uc?export=download&id=1X-p9FcxhxG0asaYpcci_bmuFIDoxScv8",
+      "https://drive.google.com/uc?export=download&id=1jFwBEIn5_w_SY6D7nkKK2_-5s4ZnFEoR",
       "_blank"
     );
   };
