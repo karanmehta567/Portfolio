@@ -21,6 +21,17 @@ const projects = [
     demoUrl: "https://chat-message-elysia.vercel.app/",
     githubUrl: "https://github.com/karanmehta567/redis-messaging-elysia",
   },
+  {
+    id: 3,
+    title: "Job Flow-A Modern Job Tracker",
+    description:
+      "This is a job tracking application built using Nextjs,MongoDB and Better Auth, lets you track your job applications in terms of status i:e interviewing,applied,rejected and also provides you with the option to add notes and reminders for each job application",
+    image: "/project/job.png",
+    tags: ["Typescript", "Nextjs", "MongoDB", "Better Auth","DND-Kit"],
+    demoUrl: "https://jobflow-lemon.vercel.app/",
+    githubUrl: "https://github.com/karanmehta567/job-tracker",
+  },
+  
 ];
 
 export const ProjectSection = () => {
