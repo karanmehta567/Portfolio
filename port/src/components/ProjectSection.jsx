@@ -31,7 +31,16 @@ const projects = [
     demoUrl: "https://jobflow-lemon.vercel.app/",
     githubUrl: "https://github.com/karanmehta567/job-tracker",
   },
-  
+  {
+    id: 4,
+    title: "BroqLMS",
+    description:
+      "Freelance Project related to learning management system, -faculty can add courses with chapters/lessons and integrated Payment Facility using Stripe",
+    image: "/project/lms.png",
+    tags: ["Typescript", "Nextjs", "Postgres/Neon", "Better Auth","Stripe","Shadcn","DND Kit"],
+    demoUrl: "https://lms-app-nextjs-steel.vercel.app/",
+    githubUrl: "https://github.com/karanmehta567/lms-app-nextjs",
+  },
 ];
 
 export const ProjectSection = () => {
